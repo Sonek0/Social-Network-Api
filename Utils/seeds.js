@@ -1,5 +1,5 @@
 const db = require("../config/connection");
-const { Thought, User } = require("../models");
+const { Thought, User } = require("../Models");
 
 db.once("open", async () => {
   await Thought.deleteMany({});
@@ -72,3 +72,5 @@ db.once("open", async () => {
   console.log("all done!");
   process.exit(0);
 });
+
+//helped and provided by instructor!
