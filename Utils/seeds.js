@@ -73,4 +73,4 @@ db.once("open", async () => {
   process.exit(0);
 });
 
-//helped and provided by instructor!
+//helped with the instructor!
